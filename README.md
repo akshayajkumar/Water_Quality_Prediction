@@ -18,7 +18,7 @@ It uses a pre-trained Random Forest model and is deployed via an interactive **S
 ## 📊 Dataset
 
 The dataset used for training the model is available on Kaggle:  
-👉 [Water Potability Dataset](https://www.kaggle.com/datasetsvanthanadevi08water-quality-prediction/data)
+👉 [Water Potability Dataset](https://www.kaggle.com/datasets/vanthanadevi08/water-quality-prediction)
 
 ---
 
@@ -39,7 +39,7 @@ The dataset used for training the model is available on Kaggle:
 - The raw dataset (`Water_Quality_Prediction.csv`, ~233 MB) is also **not included** for the same reason.  
 
 👉 You can:  
-- Download the dataset directly from Kaggle: [Water Potability Dataset](https://www.kaggle.com/datasets/vanthanadevi08/water-quality-prediction/data)  
+- Download the dataset directly from Kaggle: [Water Potability Dataset](https://www.kaggle.com/datasets/vanthanadevi08/water-quality-prediction)  
 - Retrain the model using `main.ipynb` and save your own version with:  
   ```python
   import joblib
