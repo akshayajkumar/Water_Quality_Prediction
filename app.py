@@ -107,7 +107,7 @@ with col1:
     iron = st.number_input("Iron", min_value=0.0, value=0.01)
     nitrate = st.number_input("Nitrate", min_value=0.0, value=5.0)
     chloride = st.number_input("Chloride", min_value=0.0, value=100.0)
-    lead = st.number_input("Lead", min_value=0.0, value=0.01)
+    lead = st.number_input("Lead", min_value=0.0, step=0.001, value=0.01, format="%.5f")
     zinc = st.number_input("Zinc", min_value=0.0, value=0.01)
     color = st.selectbox("Color", ["Colorless", "Near Colorless", "Faint Yellow", "Light Yellow", "Yellow"])
 
